@@ -106,6 +106,11 @@ class ProfileFragment : Fragment() {
             val action = ProfileFragmentDirections.actionVerifyPhone()
             Navigation.findNavController(it).navigate(action)
         }
+
+        text_email.setOnClickListener {
+            val action = ProfileFragmentDirections.actionUpdateEmail()
+            Navigation.findNavController(it).navigate(action)
+        }
     }
 
     private fun takePictureIntent() {
