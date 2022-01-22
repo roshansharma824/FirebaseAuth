@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -60,7 +61,7 @@
                 android:layout_gravity="top"
                 android:drawablePadding="16dp"
                 android:drawableLeft="@drawable/ic_email"
-                tools:text="probelalkhan@gmail.com"
+                tools:text="example@gmail.com"
                 android:id="@+id/text_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
@@ -81,13 +82,25 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Headline"
                 android:layout_gravity="top"
                 android:drawablePadding="16dp"
-                android:drawableLeft="@drawable/ic_phone"
                 tools:text="+917549161079"
                 android:enabled="true"
                 android:id="@+id/text_phone"
                 android:layout_width="match_parent"
                 android:layout_marginBottom="20dp"
-                android:layout_height="wrap_content"/>
+                android:layout_height="wrap_content"
+                app:drawableLeftCompat="@drawable/ic_phone" />
+            <TextView
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:layout_gravity="top"
+                android:drawablePadding="16dp"
+                android:text="Change Password"
+                android:textColor="@color/black"
+                android:enabled="true"
+                android:id="@+id/text_password"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_height="wrap_content"
+                />
 
 
             <ProgressBar

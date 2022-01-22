@@ -2,4 +2,5 @@
     <string name="app_name">Firebase Auth</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="enter_your_old_password">To change password you need to enter your old password again</string>
 </resources>
